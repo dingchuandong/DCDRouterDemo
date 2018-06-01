@@ -13,6 +13,20 @@
 		3399337420C13E50007031DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3399337320C13E50007031DD /* Assets.xcassets */; };
 		3399337720C13E50007031DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3399337520C13E50007031DD /* LaunchScreen.storyboard */; };
 		3399337A20C13E50007031DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3399337920C13E50007031DD /* main.m */; };
+		339933A320C143E6007031DD /* UIViewController+DCDRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3399338320C143E4007031DD /* UIViewController+DCDRouter.m */; };
+		339933A420C143E6007031DD /* DCDRoutingAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 3399338420C143E4007031DD /* DCDRoutingAction.m */; };
+		339933A520C143E6007031DD /* DCDRoutingTapGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 3399338520C143E4007031DD /* DCDRoutingTapGesture.m */; };
+		339933A620C143E6007031DD /* DCDBaseRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3399338620C143E4007031DD /* DCDBaseRouter.m */; };
+		339933A720C143E6007031DD /* UITableViewCell+DCDRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3399338720C143E4007031DD /* UITableViewCell+DCDRouter.m */; };
+		339933A820C143E6007031DD /* UIView+DCDRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3399338D20C143E4007031DD /* UIView+DCDRouter.m */; };
+		339933A920C143E6007031DD /* UIButton+DCDRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3399338E20C143E4007031DD /* UIButton+DCDRouter.m */; };
+		339933AA20C143E6007031DD /* DCDRoutingBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 3399339320C143E4007031DD /* DCDRoutingBuilder.m */; };
+		339933AB20C143E6007031DD /* NSObject+DCDRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3399339420C143E4007031DD /* NSObject+DCDRouter.m */; };
+		339933AC20C143E6007031DD /* DCDActionRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3399339520C143E4007031DD /* DCDActionRouter.m */; };
+		339933AD20C143E6007031DD /* Module.m in Sources */ = {isa = PBXBuildFile; fileRef = 3399339720C143E5007031DD /* Module.m */; };
+		339933AE20C143E6007031DD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3399339C20C143E5007031DD /* FirstViewController.m */; };
+		339933AF20C143E6007031DD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3399339D20C143E5007031DD /* SecondViewController.m */; };
+		339933B020C143E6007031DD /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3399339E20C143E5007031DD /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +40,37 @@
 		3399337620C13E50007031DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3399337820C13E50007031DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3399337920C13E50007031DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3399338120C143E4007031DD /* UIButton+DCDRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DCDRouter.h"; sourceTree = "<group>"; };
+		3399338220C143E4007031DD /* UIView+DCDRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DCDRouter.h"; sourceTree = "<group>"; };
+		3399338320C143E4007031DD /* UIViewController+DCDRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DCDRouter.m"; sourceTree = "<group>"; };
+		3399338420C143E4007031DD /* DCDRoutingAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCDRoutingAction.m; sourceTree = "<group>"; };
+		3399338520C143E4007031DD /* DCDRoutingTapGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCDRoutingTapGesture.m; sourceTree = "<group>"; };
+		3399338620C143E4007031DD /* DCDBaseRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCDBaseRouter.m; sourceTree = "<group>"; };
+		3399338720C143E4007031DD /* UITableViewCell+DCDRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+DCDRouter.m"; sourceTree = "<group>"; };
+		3399338820C143E4007031DD /* NSObject+DCDRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DCDRouter.h"; sourceTree = "<group>"; };
+		3399338920C143E4007031DD /* DCDRoutingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCDRoutingProtocol.h; sourceTree = "<group>"; };
+		3399338A20C143E4007031DD /* DCDRoutingBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCDRoutingBuilder.h; sourceTree = "<group>"; };
+		3399338B20C143E4007031DD /* DCDActionRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCDActionRouter.h; sourceTree = "<group>"; };
+		3399338C20C143E4007031DD /* UIViewController+DCDRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DCDRouter.h"; sourceTree = "<group>"; };
+		3399338D20C143E4007031DD /* UIView+DCDRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DCDRouter.m"; sourceTree = "<group>"; };
+		3399338E20C143E4007031DD /* UIButton+DCDRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DCDRouter.m"; sourceTree = "<group>"; };
+		3399338F20C143E4007031DD /* UITableViewCell+DCDRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+DCDRouter.h"; sourceTree = "<group>"; };
+		3399339020C143E4007031DD /* DCDBaseRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCDBaseRouter.h; sourceTree = "<group>"; };
+		3399339120C143E4007031DD /* DCDRoutingTapGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCDRoutingTapGesture.h; sourceTree = "<group>"; };
+		3399339220C143E4007031DD /* DCDRoutingAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCDRoutingAction.h; sourceTree = "<group>"; };
+		3399339320C143E4007031DD /* DCDRoutingBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCDRoutingBuilder.m; sourceTree = "<group>"; };
+		3399339420C143E4007031DD /* NSObject+DCDRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DCDRouter.m"; sourceTree = "<group>"; };
+		3399339520C143E4007031DD /* DCDActionRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCDActionRouter.m; sourceTree = "<group>"; };
+		3399339620C143E4007031DD /* DCDRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCDRouter.h; sourceTree = "<group>"; };
+		3399339720C143E5007031DD /* Module.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Module.m; sourceTree = "<group>"; };
+		3399339920C143E5007031DD /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3399339A20C143E5007031DD /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3399339B20C143E5007031DD /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		3399339C20C143E5007031DD /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		3399339D20C143E5007031DD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3399339E20C143E5007031DD /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		3399339F20C143E5007031DD /* Module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Module.h; sourceTree = "<group>"; };
+		339933A120C143E5007031DD /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +107,13 @@
 				3399336B20C13E4F007031DD /* AppDelegate.m */,
 				3399336D20C13E4F007031DD /* ViewController.h */,
 				3399336E20C13E4F007031DD /* ViewController.m */,
+				3399338020C143E4007031DD /* DCDRouter */,
+				3399339F20C143E5007031DD /* Module.h */,
+				3399339720C143E5007031DD /* Module.m */,
+				339933A120C143E5007031DD /* PrefixHeader.pch */,
+				339933A220C143E5007031DD /* View */,
+				3399339820C143E5007031DD /* ViewController */,
+				339933A020C143E5007031DD /* ViewModel */,
 				3399337020C13E4F007031DD /* Main.storyboard */,
 				3399337320C13E50007031DD /* Assets.xcassets */,
 				3399337520C13E50007031DD /* LaunchScreen.storyboard */,
@@ -69,6 +121,62 @@
 				3399337920C13E50007031DD /* main.m */,
 			);
 			path = DCDRouter;
+			sourceTree = "<group>";
+		};
+		3399338020C143E4007031DD /* DCDRouter */ = {
+			isa = PBXGroup;
+			children = (
+				3399338120C143E4007031DD /* UIButton+DCDRouter.h */,
+				3399338220C143E4007031DD /* UIView+DCDRouter.h */,
+				3399338320C143E4007031DD /* UIViewController+DCDRouter.m */,
+				3399338420C143E4007031DD /* DCDRoutingAction.m */,
+				3399338520C143E4007031DD /* DCDRoutingTapGesture.m */,
+				3399338620C143E4007031DD /* DCDBaseRouter.m */,
+				3399338720C143E4007031DD /* UITableViewCell+DCDRouter.m */,
+				3399338820C143E4007031DD /* NSObject+DCDRouter.h */,
+				3399338920C143E4007031DD /* DCDRoutingProtocol.h */,
+				3399338A20C143E4007031DD /* DCDRoutingBuilder.h */,
+				3399338B20C143E4007031DD /* DCDActionRouter.h */,
+				3399338C20C143E4007031DD /* UIViewController+DCDRouter.h */,
+				3399338D20C143E4007031DD /* UIView+DCDRouter.m */,
+				3399338E20C143E4007031DD /* UIButton+DCDRouter.m */,
+				3399338F20C143E4007031DD /* UITableViewCell+DCDRouter.h */,
+				3399339020C143E4007031DD /* DCDBaseRouter.h */,
+				3399339120C143E4007031DD /* DCDRoutingTapGesture.h */,
+				3399339220C143E4007031DD /* DCDRoutingAction.h */,
+				3399339320C143E4007031DD /* DCDRoutingBuilder.m */,
+				3399339420C143E4007031DD /* NSObject+DCDRouter.m */,
+				3399339520C143E4007031DD /* DCDActionRouter.m */,
+				3399339620C143E4007031DD /* DCDRouter.h */,
+			);
+			path = DCDRouter;
+			sourceTree = "<group>";
+		};
+		3399339820C143E5007031DD /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3399339920C143E5007031DD /* FirstViewController.h */,
+				3399339A20C143E5007031DD /* SecondViewController.h */,
+				3399339B20C143E5007031DD /* ThirdViewController.h */,
+				3399339C20C143E5007031DD /* FirstViewController.m */,
+				3399339D20C143E5007031DD /* SecondViewController.m */,
+				3399339E20C143E5007031DD /* ThirdViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		339933A020C143E5007031DD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		339933A220C143E5007031DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +249,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				339933A620C143E6007031DD /* DCDBaseRouter.m in Sources */,
+				339933A520C143E6007031DD /* DCDRoutingTapGesture.m in Sources */,
+				339933A820C143E6007031DD /* UIView+DCDRouter.m in Sources */,
+				339933AD20C143E6007031DD /* Module.m in Sources */,
+				339933AC20C143E6007031DD /* DCDActionRouter.m in Sources */,
 				3399336F20C13E4F007031DD /* ViewController.m in Sources */,
+				339933AA20C143E6007031DD /* DCDRoutingBuilder.m in Sources */,
+				339933B020C143E6007031DD /* ThirdViewController.m in Sources */,
+				339933AE20C143E6007031DD /* FirstViewController.m in Sources */,
 				3399337A20C13E50007031DD /* main.m in Sources */,
+				339933A420C143E6007031DD /* DCDRoutingAction.m in Sources */,
 				3399336C20C13E4F007031DD /* AppDelegate.m in Sources */,
+				339933A720C143E6007031DD /* UITableViewCell+DCDRouter.m in Sources */,
+				339933AF20C143E6007031DD /* SecondViewController.m in Sources */,
+				339933A920C143E6007031DD /* UIButton+DCDRouter.m in Sources */,
+				339933AB20C143E6007031DD /* NSObject+DCDRouter.m in Sources */,
+				339933A320C143E6007031DD /* UIViewController+DCDRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +406,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CZSNHNBUE8;
+				DEVELOPMENT_TEAM = YES6B27V8R;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DCDRouter/PrefixHeader.pch;
 				INFOPLIST_FILE = DCDRouter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +425,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CZSNHNBUE8;
+				DEVELOPMENT_TEAM = YES6B27V8R;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DCDRouter/PrefixHeader.pch;
 				INFOPLIST_FILE = DCDRouter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
