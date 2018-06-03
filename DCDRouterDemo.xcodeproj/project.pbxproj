@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FE616BE20C384B100B37241 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE616BD20C384B100B37241 /* AppDelegate.m */; };
+		4FE616C120C384B100B37241 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE616C020C384B100B37241 /* ViewController.m */; };
+		4FE616C420C384B100B37241 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE616C220C384B100B37241 /* Main.storyboard */; };
+		4FE616C620C384B200B37241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FE616C520C384B200B37241 /* Assets.xcassets */; };
+		4FE616C920C384B200B37241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FE616C720C384B200B37241 /* LaunchScreen.storyboard */; };
+		4FE616CC20C384B200B37241 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE616CB20C384B200B37241 /* main.m */; };
+		4FE616F320C3853B00B37241 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE616D620C3853A00B37241 /* FirstViewController.m */; };
+		4FE616F420C3853B00B37241 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE616D720C3853A00B37241 /* SecondViewController.m */; };
+		4FE616F520C3853B00B37241 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE616D820C3853A00B37241 /* ThirdViewController.m */; };
+		4FE616F620C3853B00B37241 /* UIViewController+DCDRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE616DC20C3853B00B37241 /* UIViewController+DCDRouter.m */; };
+		4FE616F720C3853B00B37241 /* DCDRoutingAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE616DD20C3853B00B37241 /* DCDRoutingAction.m */; };
+		4FE616F820C3853B00B37241 /* DCDRoutingTapGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE616DE20C3853B00B37241 /* DCDRoutingTapGesture.m */; };
+		4FE616F920C3853B00B37241 /* DCDBaseRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE616DF20C3853B00B37241 /* DCDBaseRouter.m */; };
+		4FE616FA20C3853B00B37241 /* UITableViewCell+DCDRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE616E020C3853B00B37241 /* UITableViewCell+DCDRouter.m */; };
+		4FE616FB20C3853B00B37241 /* UIView+DCDRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE616E620C3853B00B37241 /* UIView+DCDRouter.m */; };
+		4FE616FC20C3853B00B37241 /* UIButton+DCDRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE616E720C3853B00B37241 /* UIButton+DCDRouter.m */; };
+		4FE616FD20C3853B00B37241 /* DCDRoutingBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE616EC20C3853B00B37241 /* DCDRoutingBuilder.m */; };
+		4FE616FE20C3853B00B37241 /* NSObject+DCDRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE616ED20C3853B00B37241 /* NSObject+DCDRouter.m */; };
+		4FE616FF20C3853B00B37241 /* DCDActionRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE616EE20C3853B00B37241 /* DCDActionRouter.m */; };
+		4FE6170020C3853B00B37241 /* Module.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FE616F120C3853B00B37241 /* Module.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4FE616B920C384B100B37241 /* DCDRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCDRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FE616BC20C384B100B37241 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FE616BD20C384B100B37241 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FE616BF20C384B100B37241 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4FE616C020C384B100B37241 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4FE616C320C384B100B37241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FE616C520C384B200B37241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FE616C820C384B200B37241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FE616CA20C384B200B37241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FE616CB20C384B200B37241 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FE616D320C3853A00B37241 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		4FE616D420C3853A00B37241 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4FE616D520C3853A00B37241 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		4FE616D620C3853A00B37241 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		4FE616D720C3853A00B37241 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4FE616D820C3853A00B37241 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		4FE616DA20C3853B00B37241 /* UIButton+DCDRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+DCDRouter.h"; sourceTree = "<group>"; };
+		4FE616DB20C3853B00B37241 /* UIView+DCDRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DCDRouter.h"; sourceTree = "<group>"; };
+		4FE616DC20C3853B00B37241 /* UIViewController+DCDRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DCDRouter.m"; sourceTree = "<group>"; };
+		4FE616DD20C3853B00B37241 /* DCDRoutingAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCDRoutingAction.m; sourceTree = "<group>"; };
+		4FE616DE20C3853B00B37241 /* DCDRoutingTapGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCDRoutingTapGesture.m; sourceTree = "<group>"; };
+		4FE616DF20C3853B00B37241 /* DCDBaseRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCDBaseRouter.m; sourceTree = "<group>"; };
+		4FE616E020C3853B00B37241 /* UITableViewCell+DCDRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+DCDRouter.m"; sourceTree = "<group>"; };
+		4FE616E120C3853B00B37241 /* NSObject+DCDRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DCDRouter.h"; sourceTree = "<group>"; };
+		4FE616E220C3853B00B37241 /* DCDRoutingProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCDRoutingProtocol.h; sourceTree = "<group>"; };
+		4FE616E320C3853B00B37241 /* DCDRoutingBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCDRoutingBuilder.h; sourceTree = "<group>"; };
+		4FE616E420C3853B00B37241 /* DCDActionRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCDActionRouter.h; sourceTree = "<group>"; };
+		4FE616E520C3853B00B37241 /* UIViewController+DCDRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DCDRouter.h"; sourceTree = "<group>"; };
+		4FE616E620C3853B00B37241 /* UIView+DCDRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DCDRouter.m"; sourceTree = "<group>"; };
+		4FE616E720C3853B00B37241 /* UIButton+DCDRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+DCDRouter.m"; sourceTree = "<group>"; };
+		4FE616E820C3853B00B37241 /* UITableViewCell+DCDRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+DCDRouter.h"; sourceTree = "<group>"; };
+		4FE616E920C3853B00B37241 /* DCDBaseRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCDBaseRouter.h; sourceTree = "<group>"; };
+		4FE616EA20C3853B00B37241 /* DCDRoutingTapGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCDRoutingTapGesture.h; sourceTree = "<group>"; };
+		4FE616EB20C3853B00B37241 /* DCDRoutingAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCDRoutingAction.h; sourceTree = "<group>"; };
+		4FE616EC20C3853B00B37241 /* DCDRoutingBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCDRoutingBuilder.m; sourceTree = "<group>"; };
+		4FE616ED20C3853B00B37241 /* NSObject+DCDRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DCDRouter.m"; sourceTree = "<group>"; };
+		4FE616EE20C3853B00B37241 /* DCDActionRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCDActionRouter.m; sourceTree = "<group>"; };
+		4FE616EF20C3853B00B37241 /* DCDRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCDRouter.h; sourceTree = "<group>"; };
+		4FE616F020C3853B00B37241 /* Module.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Module.h; sourceTree = "<group>"; };
+		4FE616F120C3853B00B37241 /* Module.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Module.m; sourceTree = "<group>"; };
+		4FE616F220C3853B00B37241 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FE616B620C384B100B37241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FE616B020C384B100B37241 = {
+			isa = PBXGroup;
+			children = (
+				4FE616BB20C384B100B37241 /* DCDRouterDemo */,
+				4FE616BA20C384B100B37241 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FE616BA20C384B100B37241 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FE616B920C384B100B37241 /* DCDRouterDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FE616BB20C384B100B37241 /* DCDRouterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4FE616BC20C384B100B37241 /* AppDelegate.h */,
+				4FE616BD20C384B100B37241 /* AppDelegate.m */,
+				4FE616BF20C384B100B37241 /* ViewController.h */,
+				4FE616C020C384B100B37241 /* ViewController.m */,
+				4FE616D920C3853B00B37241 /* DCDRouter */,
+				4FE616F020C3853B00B37241 /* Module.h */,
+				4FE616F120C3853B00B37241 /* Module.m */,
+				4FE616F220C3853B00B37241 /* PrefixHeader.pch */,
+				4FE616D220C3853A00B37241 /* ViewController */,
+				4FE616C220C384B100B37241 /* Main.storyboard */,
+				4FE616C520C384B200B37241 /* Assets.xcassets */,
+				4FE616C720C384B200B37241 /* LaunchScreen.storyboard */,
+				4FE616CA20C384B200B37241 /* Info.plist */,
+				4FE616CB20C384B200B37241 /* main.m */,
+			);
+			path = DCDRouterDemo;
+			sourceTree = "<group>";
+		};
+		4FE616D220C3853A00B37241 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4FE616D320C3853A00B37241 /* FirstViewController.h */,
+				4FE616D420C3853A00B37241 /* SecondViewController.h */,
+				4FE616D520C3853A00B37241 /* ThirdViewController.h */,
+				4FE616D620C3853A00B37241 /* FirstViewController.m */,
+				4FE616D720C3853A00B37241 /* SecondViewController.m */,
+				4FE616D820C3853A00B37241 /* ThirdViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4FE616D920C3853B00B37241 /* DCDRouter */ = {
+			isa = PBXGroup;
+			children = (
+				4FE616DA20C3853B00B37241 /* UIButton+DCDRouter.h */,
+				4FE616DB20C3853B00B37241 /* UIView+DCDRouter.h */,
+				4FE616DC20C3853B00B37241 /* UIViewController+DCDRouter.m */,
+				4FE616DD20C3853B00B37241 /* DCDRoutingAction.m */,
+				4FE616DE20C3853B00B37241 /* DCDRoutingTapGesture.m */,
+				4FE616DF20C3853B00B37241 /* DCDBaseRouter.m */,
+				4FE616E020C3853B00B37241 /* UITableViewCell+DCDRouter.m */,
+				4FE616E120C3853B00B37241 /* NSObject+DCDRouter.h */,
+				4FE616E220C3853B00B37241 /* DCDRoutingProtocol.h */,
+				4FE616E320C3853B00B37241 /* DCDRoutingBuilder.h */,
+				4FE616E420C3853B00B37241 /* DCDActionRouter.h */,
+				4FE616E520C3853B00B37241 /* UIViewController+DCDRouter.h */,
+				4FE616E620C3853B00B37241 /* UIView+DCDRouter.m */,
+				4FE616E720C3853B00B37241 /* UIButton+DCDRouter.m */,
+				4FE616E820C3853B00B37241 /* UITableViewCell+DCDRouter.h */,
+				4FE616E920C3853B00B37241 /* DCDBaseRouter.h */,
+				4FE616EA20C3853B00B37241 /* DCDRoutingTapGesture.h */,
+				4FE616EB20C3853B00B37241 /* DCDRoutingAction.h */,
+				4FE616EC20C3853B00B37241 /* DCDRoutingBuilder.m */,
+				4FE616ED20C3853B00B37241 /* NSObject+DCDRouter.m */,
+				4FE616EE20C3853B00B37241 /* DCDActionRouter.m */,
+				4FE616EF20C3853B00B37241 /* DCDRouter.h */,
+			);
+			path = DCDRouter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FE616B820C384B100B37241 /* DCDRouterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FE616CF20C384B200B37241 /* Build configuration list for PBXNativeTarget "DCDRouterDemo" */;
+			buildPhases = (
+				4FE616B520C384B100B37241 /* Sources */,
+				4FE616B620C384B100B37241 /* Frameworks */,
+				4FE616B720C384B100B37241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCDRouterDemo;
+			productName = DCDRouterDemo;
+			productReference = 4FE616B920C384B100B37241 /* DCDRouterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FE616B120C384B100B37241 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = dcd;
+				TargetAttributes = {
+					4FE616B820C384B100B37241 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4FE616B420C384B100B37241 /* Build configuration list for PBXProject "DCDRouterDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FE616B020C384B100B37241;
+			productRefGroup = 4FE616BA20C384B100B37241 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FE616B820C384B100B37241 /* DCDRouterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FE616B720C384B100B37241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE616C920C384B200B37241 /* LaunchScreen.storyboard in Resources */,
+				4FE616C620C384B200B37241 /* Assets.xcassets in Resources */,
+				4FE616C420C384B100B37241 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FE616B520C384B100B37241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE616F820C3853B00B37241 /* DCDRoutingTapGesture.m in Sources */,
+				4FE616FE20C3853B00B37241 /* NSObject+DCDRouter.m in Sources */,
+				4FE616F420C3853B00B37241 /* SecondViewController.m in Sources */,
+				4FE616C120C384B100B37241 /* ViewController.m in Sources */,
+				4FE616F920C3853B00B37241 /* DCDBaseRouter.m in Sources */,
+				4FE616F520C3853B00B37241 /* ThirdViewController.m in Sources */,
+				4FE616FF20C3853B00B37241 /* DCDActionRouter.m in Sources */,
+				4FE616FC20C3853B00B37241 /* UIButton+DCDRouter.m in Sources */,
+				4FE616FB20C3853B00B37241 /* UIView+DCDRouter.m in Sources */,
+				4FE6170020C3853B00B37241 /* Module.m in Sources */,
+				4FE616CC20C384B200B37241 /* main.m in Sources */,
+				4FE616FD20C3853B00B37241 /* DCDRoutingBuilder.m in Sources */,
+				4FE616F620C3853B00B37241 /* UIViewController+DCDRouter.m in Sources */,
+				4FE616BE20C384B100B37241 /* AppDelegate.m in Sources */,
+				4FE616F720C3853B00B37241 /* DCDRoutingAction.m in Sources */,
+				4FE616FA20C3853B00B37241 /* UITableViewCell+DCDRouter.m in Sources */,
+				4FE616F320C3853B00B37241 /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4FE616C220C384B100B37241 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FE616C320C384B100B37241 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FE616C720C384B200B37241 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FE616C820C384B200B37241 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FE616CD20C384B200B37241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4FE616CE20C384B200B37241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FE616D020C384B200B37241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YES6B27V8R;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DCDRouterDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = DCDRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dcd.DCDRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FE616D120C384B200B37241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YES6B27V8R;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DCDRouterDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = DCDRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dcd.DCDRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FE616B420C384B100B37241 /* Build configuration list for PBXProject "DCDRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FE616CD20C384B200B37241 /* Debug */,
+				4FE616CE20C384B200B37241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FE616CF20C384B200B37241 /* Build configuration list for PBXNativeTarget "DCDRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FE616D020C384B200B37241 /* Debug */,
+				4FE616D120C384B200B37241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FE616B120C384B100B37241 /* Project object */;
+}
